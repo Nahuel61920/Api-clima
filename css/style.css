@@ -37,10 +37,16 @@ body {
     color:azure;    
 }
 #caja2 {
-    background-color: darkslateblue;
+    background-color: rgb(117, 105, 189);
     color:azure;    
 }
 #caja3 {
-    background-color: #2ab2ea;
+    background-color: #22bdff;
     color:azure;    
+}
+
+@media (max-width: 790px) {
+    #contenedor {
+        grid-template-columns: 1fr;
+    }
 }
